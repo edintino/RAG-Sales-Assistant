@@ -5,7 +5,7 @@ def run_chat_api():
     subprocess.run(['python3', './api/main.py'])
 
 def run_streamlit():
-    subprocess.run(['streamlit', 'run', 'streamlit_app.py'])
+    subprocess.run(['streamlit', 'run', './interface/streamlit_app.py'])
 
 def run_train_model():
     subprocess.run(['python3', './src/train_model.py'])

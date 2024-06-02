@@ -28,9 +28,10 @@ def chat(query: Query):
     """
     try:
         response = chat_engine.chat(query.question)
-        return response
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+    return response
 
 @app.post("/reset")
 def reset_chat():
@@ -49,4 +50,4 @@ def reset_chat():
 # Example endpoint to test the server
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the RAG Sales Assistant API"}
+    return {"response": "Welcome to GameStop! If you have any questions about our products, feel free to ask."}

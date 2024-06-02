@@ -1,6 +1,6 @@
 # RAG Sales Assistant Chatbot
 
-[Demo]('demo.gif')
+[![Demo](demo.gif)](demo.gif)
 
 ## Overview
 

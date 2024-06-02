@@ -1,5 +1,7 @@
 # RAG Sales Assistant Chatbot
 
+[<img src="demo.mp4" width="50%">]
+
 ## Overview
 
 The RAG Sales Assistant Chatbot is a sophisticated AI-driven system designed to provide insightful responses to customer queries about products. This project utilizes various technologies including FastAPI for API development, Streamlit for the web interface, and advanced NLP models for generating embeddings and managing conversations using `llama_index`.

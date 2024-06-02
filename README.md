@@ -1,6 +1,6 @@
 # RAG Sales Assistant Chatbot
 
-[<img src="demo.mp4" width="50%">]
+<video src='demo.mp4' width=180/>
 
 ## Overview
 
